@@ -36,6 +36,7 @@ Write-Host "      OK -> $SnifferDir" -ForegroundColor Gray
 # ── 1b. Verificar Npcap SDK ──────────────────────────────────────────────────
 $NpcapCandidatos = @(
     $env:NPCAP_SDK_DIR,
+    (Join-Path $env:USERPROFILE "npcap-sdk\Lib\x64"),
     "C:\Program Files\Npcap\SDK\Lib\x64",
     "C:\npcap-sdk\Lib\x64",
     (Join-Path $SnifferDir "npcap-sdk\Lib\x64")
