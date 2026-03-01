@@ -1,0 +1,3 @@
+[submodule "TitanUI"]
+	path = TitanUI
+	url = https://github.com/jeremiasmarinho/TitanUI.git
